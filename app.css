@@ -1,0 +1,42 @@
+body {
+    background-image: url("/static/images/greenplaid.png");
+    background-repeat: repeat;
+    background-size: cover; /* Ensure the background covers the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 16px;
+    color: #ff78d2;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    height: 100vh; /* Make the body take the full height of the viewport */
+    padding-left: 150px; /* Padding inside the container */
+    padding-right: 150px; /* Padding inside the container */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns: side, center, side */
+    gap: 20px; /* Space between columns */
+    background-color: white; /* Background color for the container */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+    max-width: 1200px; /* Maximum width of the container */
+    width: 100%; /* Make the container responsive */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.toppart {
+    width: 100%; /* Ensure it takes the full width */
+    padding: 20px; /* Add padding if needed */
+    background-color: #f8f8f8; /* Optional: Background color for the top part */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+
+.column {
+    padding: 10px; /* Padding inside each column */
+}
+
+.center-column {
+    background-color: #f0f0f0; /* Optional: Different background for the center column */
+}
