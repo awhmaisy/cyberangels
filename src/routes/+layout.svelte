@@ -3,13 +3,11 @@
     import '/app.css';
 </script>
 
-<div class="toppart">
-    <Navigation />
-</div>
+
 
 <div class="container">
-    <div>
-        <p>hello</p>
+    <div class="boxy">
+        <Navigation />
     </div>
     <div class="column">
         <p>Sample text for the left column.</p>

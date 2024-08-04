@@ -14,9 +14,6 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* Three columns: side, center, side */
-    gap: 20px; /* Space between columns */
     background-color: white; /* Background color for the container */
     padding: 20px; /* Padding inside the container */
     border-radius: 10px; /* Rounded corners */
@@ -26,11 +23,11 @@ body {
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-.toppart {
-    width: 100%; /* Ensure it takes the full width */
-    padding: 20px; /* Add padding if needed */
-    background-color: #f8f8f8; /* Optional: Background color for the top part */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Three columns: side, center, side */
+    gap: 20px; /* Space between columns */
 }
 
 .column {

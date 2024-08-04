@@ -2,9 +2,21 @@
     import { page } from '$app/stores'; 
   </script>
   
-  <div class="navbar">
+  <nav>
     <a href="/shop">shop</a>
     <a href="/">consuming</a>
     <a href="/">linky</a>
     <a href="/">chat</a>
-  </div>
+  </nav>
+
+  <style>
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: justify;
+		margin: 0;
+		width: 100%;
+		padding: 0;
+		box-sizing: border-box;
+	}
+  </style>
